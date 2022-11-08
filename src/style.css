@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  background-color: #ffe9ec;
+  background: url(../images/bg-img.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 150px 0;
+  max-width: 100%;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  background: url(../images/park-2.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.city-title {
+  font-family: "Mr Dafoe", cursive;
+  font-weight: 400;
+  font-size: 156px;
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+  color: rgb(19, 19, 49);
+}
+
+.city-subtitle {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 56px;
+  margin: 50px 40px 180px;
+  text-align: right;
+  color: rgb(19, 19, 49);
+}
+
+.city-subtitle span {
+  display: inline-block;
+  position: relative;
+}
+
+.city-subtitle-img {
+  position: absolute;
+  max-width: 80%;
+  top: -21px;
+  right: -35px;
+  z-index: -1;
+}
+
+.city-info {
+  font-size: 24px;
+  text-align: left;
+  max-width: 1200px;
+  margin: -200px auto 0px;
+  padding: 80px 100px;
+  border: 2px solid rgb(19, 19, 49);
+  border-radius: 8px;
+  transform: rotate(5deg);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.first-row {
+  margin-bottom: 50px;
+}
+
+.img-fluid {
+  transition: transform 400ms;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer p {
+  font-size: 56px;
+  line-height: 1.5;
+  text-align: right;
+  font-family: "Mr Dafoe", cursive;
+  margin-right: 20px;
+}
+
+.footer span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 1240px) {
+  .city-info {
+    max-width: 1100px;
+    padding: 50px 70px;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .city-info {
+    max-width: 900px;
+    padding: 40px 60px;
+  }
+
+  .city-subtitle {
+    margin: 50px 40px 200px;
+  }
+}
+
+@media (max-width: 960px) {
+  .city-info {
+    max-width: 800px;
+    padding: 20px 40px;
+  }
+
+  .first-row {
+    margin-bottom: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 860px) {
+  .city-info {
+    max-width: 600px;
+    transform: rotate(7deg);
+  }
+
+  .city-subtitle {
+    margin: 50px 40px 220px;
+  }
+}
+
+@media (max-width: 660px) {
+  .city-info {
+    font-size: 24px;
+    max-width: 500px;
+    padding-top: 20px;
+    margin: -230px auto 20px;
+    transform: rotate(0deg);
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid gray;
+    text-align: center;
+  }
+
+  .city-subtitle {
+    margin: 20px 40px 240px;
+    font-size: 48px;
+  }
+
+  .footer p {
+    font-size: 48px;
+  }
+
+  .city-title {
+    font-size: 132px;
+  }
+}
+
+@media (max-width: 576px) {
+  .city-title {
+    font-size: 96px;
+  }
+
+  .city-subtitle {
+    font-size: 34px;
+    margin: 20px 20px 240px;
+  }
+
+  .city-subtitle-img {
+    position: absolute;
+    max-width: 80%;
+    top: -15px;
+    right: -22px;
+    z-index: -1;
+  }
+
+  .footer p {
+    font-size: 38px;
+    line-height: 1;
+    margin: 0 10px;
+  }
+
+  .footer span {
+    font-size: 12px;
+  }
+
+  .city-info {
+    font-size: 20px;
+  }
+
+  .container {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .city-title {
+    font-size: 64px;
+  }
+
+  .city-subtitle {
+    font-size: 24px;
+    margin: 20px 30px 240px;
+  }
+
+  .city-subtitle-img {
+    position: absolute;
+    max-width: 80%;
+    top: -10px;
+    right: -18px;
+    z-index: -1;
+  }
+
+  .footer p {
+    font-size: 24px;
+  }
+
+  .city-info {
+    font-size: 16px;
+    margin: -230px auto 10px;
+  }
+
+  .container {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 300px) {
+  .city-title {
+    font-size: 52px;
+  }
+}
