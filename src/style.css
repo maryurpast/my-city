@@ -96,9 +96,13 @@ body {
   font-size: 24px;
 }
 
+.war {
+  padding: 0 50px;
+}
+
 .footer p {
   font-size: 56px;
-  line-height: 1.5;
+  line-height: 1;
   text-align: right;
   font-family: "Mr Dafoe", cursive;
   margin-right: 20px;
@@ -129,6 +133,10 @@ body {
   .city-subtitle {
     margin: 50px 40px 200px;
   }
+
+  .footer p {
+    font-size: 48px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -144,6 +152,10 @@ body {
   .card {
     margin-bottom: 20px;
   }
+
+  .footer p {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 860px) {
@@ -154,6 +166,10 @@ body {
 
   .city-subtitle {
     margin: 50px 40px 220px;
+  }
+
+  .war {
+    padding: 20px;
   }
 }
 
@@ -172,10 +188,6 @@ body {
 
   .city-subtitle {
     margin: 20px 40px 240px;
-    font-size: 48px;
-  }
-
-  .footer p {
     font-size: 48px;
   }
 
@@ -203,13 +215,11 @@ body {
   }
 
   .footer p {
-    font-size: 38px;
-    line-height: 1;
-    margin: 0 10px;
+    font-size: 24px;
   }
 
   .footer span {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .city-info {
@@ -218,6 +228,9 @@ body {
 
   .container {
     font-size: 20px;
+  }
+  .war {
+    padding: 0;
   }
 }
 
@@ -240,7 +253,7 @@ body {
   }
 
   .footer p {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .city-info {
