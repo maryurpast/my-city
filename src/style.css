@@ -19,7 +19,7 @@ body {
 
 .header::after {
   content: "";
-  background: url(../images/park-2.jpg) no-repeat center;
+  background: url(../images/park-1280.jpg) no-repeat center;
   background-size: cover;
   opacity: 0.7;
   position: absolute;
@@ -76,10 +76,6 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.first-row {
-  margin-bottom: 50px;
 }
 
 .img-fluid {
@@ -147,10 +143,6 @@ body {
 
   .first-row {
     margin-bottom: 0;
-  }
-
-  .card {
-    margin-bottom: 20px;
   }
 
   .footer p {
@@ -253,7 +245,8 @@ body {
   }
 
   .footer p {
-    font-size: 16px;
+    font-size: 20px;
+    margin-right: 10px;
   }
 
   .city-info {
